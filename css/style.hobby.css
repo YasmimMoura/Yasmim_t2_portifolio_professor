@@ -1,0 +1,241 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sanss-serif;
+
+}
+
+body{
+    background: #081b29;
+}
+
+body{
+    
+    color:#ededed;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    background-image: radial-gradient(#1b1c20 1.4500000000000002px, #000000 1.4500000000000002px);
+    background-size: 29px 29px;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+h1{
+    letter-spacing:1.5px;
+    margin: 2rem;
+}
+
+.violao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.violao:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: 0px -23px 144px -5px rgba(0, 171, 240, 0.5);
+}
+
+
+
+.violao-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to left, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.violao-img img{
+    transform: scaleX(-1);
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+.violao-text{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+
+.lendo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.lendo-name:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: 0px -23px 144px -5px rgba(0, 171, 240, 0.5);
+}
+
+.lendo-text{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.lendo-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to right, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.lendo-img img{
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+
+
+
+
+
+.ciclismo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.ciclismo-name:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: 0px -23px 144px -5px rgba(0, 171, 240, 0.5);
+}
+
+.ciclismo-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to left, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.ciclismo-img img{
+    transform: scaleX(-1);
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+.ciclismo-text{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 125px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    flex-direction: column;
+}
+
+
+
+.home-sci {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: flex;
+    gap: 10px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}

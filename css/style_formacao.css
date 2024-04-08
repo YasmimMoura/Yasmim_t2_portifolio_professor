@@ -1,0 +1,181 @@
+@import url('https://fonts.googlepis.com/css2?family=Poppins:wgh@300;400;500;600;700;800;900&display=swaap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sanss-serif;
+
+}
+
+body{
+    background: #081b29;
+}
+
+body{
+    
+    color:#ededed;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+
+
+
+.formacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    padding: 40px 4%;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    gap: 60px; /
+}
+
+.img-formacao img {
+    width: 40vw;
+    height: auto; 
+    max-height: 100vh; 
+    border-radius: 40px;
+}
+
+.txt-formacao {
+    text-align: justify; 
+    color: #fff; 
+}
+
+.txt-formacao h2 {
+    font-size: 45px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.txt-formacao h2 span {
+    color: #00abf0; 
+}
+
+.txt-formacao p {
+    margin-bottom: 20px; 
+}
+
+.home-sci {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    display: flex;
+    gap: 10px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-sci a:hover {
+    transform: scale(1.1);
+}
+
+.formacao {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.conteudo {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.txt-formacao {
+    margin-bottom: 20px; 
+}
+
+.img-formacao {
+    flex: 1;
+}
+
+.linguas-faladas {
+    text-align: center;
+    margin-top: 80px; 
+}
+
+.outras-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.imagem-esquerda,
+.imagem-direita {
+    flex: 0.4;
+    max-width: 50%;
+}
+
+.imagem-esquerda img,
+.imagem-direita img {
+    display: block;
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-height: 300px; 
+}   
+
+.foto {
+    position: relative;
+    overflow: hidden;
+}
+
+.foto:hover {
+    box-shadow: 0px -23px 144px -5px rgba(0, 171, 240, 0.5);
+}
